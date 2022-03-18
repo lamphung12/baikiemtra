@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m=[1,4,5,7,12,21,5.5,76];
+    let sum=0;
+    let dem=0;
+    for (let i=0;dem<m.length;i++){
+        let check = "snt";
+        for(let j=2;j<m[i-1].length;j++){
+            if(i%j==0){
+                check="snt";
+            }
+        }if(check=="snt"){
+            document.write(i)
+            dem++;
+        }
+
+    }
+</script>
+</body>
+</html>
